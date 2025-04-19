@@ -16,13 +16,18 @@ main {
   padding: 2rem;
 }
 
-.grid-container {
+.grid {
   display: flex;
   flex-wrap: wrap;
   columns: auto;
-  gap: 5rem;
   justify-content: center;
   justify-items: center;
+}
+.grid.contents {
+  gap: 5rem;
+}
+.grid.icons {
+  gap: 2rem;
 }
 footer {
   text-align: center;
@@ -53,6 +58,12 @@ iframe {
 }
 .scratch {
   padding: 1rem;
+}
+.logo {
+  width: 30px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }
 
 /* text format */
