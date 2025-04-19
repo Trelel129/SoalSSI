@@ -23,7 +23,7 @@ header {
   color: white;
   padding: 1rem 0;
   text-align: center;
-  size: 100%;
+  width: 100vw;
 }
 main {
   padding: 2rem;
