@@ -1,3 +1,16 @@
+/* text format */
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+h3 {
+  overflow: auto;
+  width: 40rem;
+}
+italic {
+  font-style: italic;
+}
+/* text format */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -64,10 +77,4 @@ iframe {
   height: auto;
   margin: 0 auto;
   display: block;
-}
-
-/* text format */
-a:link {
-  color: #000000;
-  text-decoration: none;
 }
