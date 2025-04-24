@@ -74,7 +74,7 @@ footer {
   width: 20vh;
   height: 20vh;
 }
-.module:hover {
+.module.main:hover {
   transform: scale(1.25);
 }
 iframe {
