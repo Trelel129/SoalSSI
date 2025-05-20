@@ -17,6 +17,18 @@ function scrollFunction() {
   }
 }
 
+function detectMob() {
+  return window.innerWidth <= 800 && window.innerHeight <= 600;
+}
+function hideButtons() {
+  if (detectMob()) {
+    myleftbutton.style.display = "none";
+    myrightbutton.style.display = "none";
+  } else {
+    myleftbutton.style.display = "block";
+    myrightbutton.style.display = "block";
+  }
+}
 // // When the user clicks on the button, scroll to the top of the document
 // function topFunction() {
 //   document.body.scrollTop = 0; // For Safari
