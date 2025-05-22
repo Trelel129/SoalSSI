@@ -81,6 +81,16 @@ footer {
   height: 50%;
   width: auto;
 }
+.narasi {
+  background: white;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  height: fit-content;
+  width: auto;
+}
 .module.main {
   width: 12rem;
   height: auto;
