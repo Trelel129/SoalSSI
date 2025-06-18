@@ -26,7 +26,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f9;
-  overflow: scroll;
+  /* overflow: scroll; */
+  overflow-y: scroll;
+  min-height: 100%;
+  position: relative;
 }
 header {
   background-color: #6200ea;
@@ -38,6 +41,7 @@ header {
 }
 main {
   padding: 2rem;
+  padding-bottom: 80px;
 }
 .grid {
   display: flex;
